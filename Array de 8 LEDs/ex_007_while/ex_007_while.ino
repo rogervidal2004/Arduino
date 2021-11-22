@@ -9,13 +9,14 @@
 
 //********** Variables ************************************************************
 const byte led0 = 5;          // donar nom al pin 13 de l’Arduino
-
+int num=0;
 //********** Setup ****************************************************************
 void setup()
 {
  pinMode(led0, OUTPUT);    
- while(0 <= 30)
+ while(num< 30)
   {
+    num ++;
     digitalWrite(led0, HIGH);    // posar a 5V el pin 13
     delay(300);                  // es queden leds 500ms encesos
     digitalWrite(led0, LOW);     // posar a 0V el pin 13
