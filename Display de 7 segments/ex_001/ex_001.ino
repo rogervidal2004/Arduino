@@ -16,6 +16,7 @@ const byte segD = 8;
 const byte segE = 9;          
 const byte segF = 10;         
 const byte segG = 11; 
+long int t = 200;
 
 //********** Setup ****************************************************************
 void setup()
@@ -35,103 +36,268 @@ void loop()
   digitalWrite(segA, HIGH);    // posar a 5V el pin 5
   digitalWrite(segB, HIGH);    // posar a 5V el pin 6
   digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segD, LOW);    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
+
+  digitalWrite(segA, LOW);    // posar a 5V el pin 5
+  digitalWrite(segB, LOW); // posar a 5V el pin 6
+  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segD, HIGH);    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);                   
+  
+  delay(t);                  // es queden leds tms encesos
+
+    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+  digitalWrite(segB, LOW);                   
+  digitalWrite(segC, LOW);// posar a 5V el pin 7
+  digitalWrite(segD, HIGH);    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, LOW);    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
+
+    digitalWrite(segA, LOW );    // posar a 5V el pin 5
+  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
+  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
   digitalWrite(segD, HIGH);    // posar a 5V el pin 8
   digitalWrite(segE, HIGH);    // posar a 5V el pin 9
   digitalWrite(segF, LOW);    // posar a 5V el pin 10
   digitalWrite(segG, HIGH);    // posar a 5V el pin 11
   
-  delay(500);                  // es queden leds 500ms encesos
-  
-  digitalWrite(segA, HIGH);    // posar a 5V el pin 5
-  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
-  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  delay(t);                  // es queden leds tms encesos
+
+    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+  digitalWrite(segB, LOW);    // posar a 5V el pin 6
+  digitalWrite(segC, LOW);    // posar a 5V el pin 7
   digitalWrite(segD, HIGH);    // posar a 5V el pin 8
   digitalWrite(segE, HIGH);    // posar a 5V el pin 9
   digitalWrite(segF, HIGH);    // posar a 5V el pin 10
   digitalWrite(segG, HIGH);    // posar a 5V el pin 11
   
-  delay(500);                  // es queden leds 500ms encesos
+  delay(t);                  // es queden leds tms encesos
+
+    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+  digitalWrite(segB, LOW );    // posar a 5V el pin 6
+  digitalWrite(segC, LOW );    // posar a 5V el pin 7
+  digitalWrite(segD, LOW );    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
 
     digitalWrite(segA, HIGH);    // posar a 5V el pin 5
   digitalWrite(segB, HIGH);    // posar a 5V el pin 6
   digitalWrite(segC, HIGH);    // posar a 5V el pin 7
   digitalWrite(segD, HIGH);    // posar a 5V el pin 8
+  digitalWrite(segE, LOW );    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
+
+    digitalWrite(segA, LOW );    // posar a 5V el pin 5
+  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
+  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segD, LOW );    // posar a 5V el pin 8
   digitalWrite(segE, HIGH);    // posar a 5V el pin 9
   digitalWrite(segF, HIGH);    // posar a 5V el pin 10
   digitalWrite(segG, HIGH);    // posar a 5V el pin 11
   
-  delay(500);                  // es queden leds 500ms encesos
+  delay(t);                  // es queden leds tms encesos
 
-    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+    digitalWrite(segA, LOW );    // posar a 5V el pin 5
+  digitalWrite(segB, LOW );    // posar a 5V el pin 6
+  digitalWrite(segC, LOW );    // posar a 5V el pin 7
+  digitalWrite(segD, LOW );    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, LOW );    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
+
+    digitalWrite(segA, LOW );    // posar a 5V el pin 5
+  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
+  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segD, HIGH);    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, LOW );    // posar a 5V el pin 10
+  digitalWrite(segG, LOW );    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
+
+  digitalWrite(segA, LOW );    // posar a 5V el pin 5
+  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
+  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segD, LOW );    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
+
+ digitalWrite(segA, LOW );    // posar a 5V el pin 5
+  digitalWrite(segB, LOW );    // posar a 5V el pin 6
+  digitalWrite(segC, LOW );    // posar a 5V el pin 7
+  digitalWrite(segD, HIGH);    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, LOW );    // posar a 5V el pin 11
+  
+  
+  delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+  digitalWrite(segB, LOW );    // posar a 5V el pin 6
+  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segD, LOW );    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, LOW );    // posar a 5V el pin 10
+  digitalWrite(segG, LOW );    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, LOW );    // posar a 5V el pin 5
+  digitalWrite(segB, LOW );    // posar a 5V el pin 6
+  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segD, LOW );    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, LOW );    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, HIGH);    // posar a 5V el pin 5
   digitalWrite(segB, HIGH);    // posar a 5V el pin 6
   digitalWrite(segC, HIGH);    // posar a 5V el pin 7
   digitalWrite(segD, HIGH);    // posar a 5V el pin 8
   digitalWrite(segE, HIGH);    // posar a 5V el pin 9
   digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, LOW );    // posar a 5V el pin 11
+  
+  
+  delay(t);                  // es queden leds tms encesos
+
+
+   digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
+  digitalWrite(segC, LOW );    // posar a 5V el pin 7
+  digitalWrite(segD, LOW );    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
   digitalWrite(segG, HIGH);    // posar a 5V el pin 11
   
-  delay(500);                  // es queden leds 500ms encesos
+  delay(t);                  // es queden leds tms encesos
 
-    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+   digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
+  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segD, LOW );    // posar a 5V el pin 8
+  digitalWrite(segE, LOW );    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+
+ delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, LOW );    // posar a 5V el pin 5
+  digitalWrite(segB, LOW );    // posar a 5V el pin 6
+  digitalWrite(segC, LOW );    // posar a 5V el pin 7
+  digitalWrite(segD, LOW );    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, LOW );    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+
+
+   delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+  digitalWrite(segB, LOW );    // posar a 5V el pin 6
+  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segD, HIGH);    // posar a 5V el pin 8
+  digitalWrite(segE, LOW );    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+
+   delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, LOW);    // posar a 5V el pin 5
+  digitalWrite(segB, LOW);    // posar a 5V el pin 6
+  digitalWrite(segC, LOW);    // posar a 5V el pin 7
+  digitalWrite(segD, HIGH);    // posar a 5V el pin 8
+  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+
+   delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, LOW);    // posar a 5V el pin 5
   digitalWrite(segB, HIGH);    // posar a 5V el pin 6
   digitalWrite(segC, HIGH);    // posar a 5V el pin 7
   digitalWrite(segD, HIGH);    // posar a 5V el pin 8
   digitalWrite(segE, HIGH);    // posar a 5V el pin 9
   digitalWrite(segF, HIGH);    // posar a 5V el pin 10
-  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
-  
-  delay(500);                  // es queden leds 500ms encesos
+  digitalWrite(segG, LOW);    // posar a 5V el pin 11
 
-    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
-  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
+   delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, LOW);    // posar a 5V el pin 5
+  digitalWrite(segB, LOW);    // posar a 5V el pin 6
   digitalWrite(segC, HIGH);    // posar a 5V el pin 7
   digitalWrite(segD, HIGH);    // posar a 5V el pin 8
   digitalWrite(segE, HIGH);    // posar a 5V el pin 9
-  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
-  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
-  
-  delay(500);                  // es queden leds 500ms encesos
+  digitalWrite(segF, LOW);    // posar a 5V el pin 10
+  digitalWrite(segG, LOW);    // posar a 5V el pin 11
 
-    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+   delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, LOW);    // posar a 5V el pin 5
+  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
+  digitalWrite(segC, LOW);    // posar a 5V el pin 7
+  digitalWrite(segD, HIGH);    // posar a 5V el pin 8
+  digitalWrite(segE, LOW);    // posar a 5V el pin 9
+  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segG, LOW);    // posar a 5V el pin 11
+
+   delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, LOW);    // posar a 5V el pin 5
   digitalWrite(segB, HIGH);    // posar a 5V el pin 6
   digitalWrite(segC, HIGH);    // posar a 5V el pin 7
-  digitalWrite(segD, HIGH);    // posar a 5V el pin 8
+  digitalWrite(segD, LOW);    // posar a 5V el pin 8
   digitalWrite(segE, HIGH);    // posar a 5V el pin 9
   digitalWrite(segF, HIGH);    // posar a 5V el pin 10
   digitalWrite(segG, HIGH);    // posar a 5V el pin 11
-  
-  delay(500);                  // es queden leds 500ms encesos
 
-    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+   delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, LOW);    // posar a 5V el pin 5
   digitalWrite(segB, HIGH);    // posar a 5V el pin 6
   digitalWrite(segC, HIGH);    // posar a 5V el pin 7
   digitalWrite(segD, HIGH);    // posar a 5V el pin 8
-  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
+  digitalWrite(segE, LOW);    // posar a 5V el pin 9
   digitalWrite(segF, HIGH);    // posar a 5V el pin 10
   digitalWrite(segG, HIGH);    // posar a 5V el pin 11
-  
-  delay(500);                  // es queden leds 500ms encesos
 
-    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
+   delay(t);                  // es queden leds tms encesos
+
+   digitalWrite(segA, HIGH);    // posar a 5V el pin 5
   digitalWrite(segB, HIGH);    // posar a 5V el pin 6
-  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
+  digitalWrite(segC, LOW);    // posar a 5V el pin 7
   digitalWrite(segD, HIGH);    // posar a 5V el pin 8
   digitalWrite(segE, HIGH);    // posar a 5V el pin 9
-  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
+  digitalWrite(segF, LOW);    // posar a 5V el pin 10
   digitalWrite(segG, HIGH);    // posar a 5V el pin 11
   
-  delay(500);                  // es queden leds 500ms encesos
-
-    digitalWrite(segA, HIGH);    // posar a 5V el pin 5
-  digitalWrite(segB, HIGH);    // posar a 5V el pin 6
-  digitalWrite(segC, HIGH);    // posar a 5V el pin 7
-  digitalWrite(segD, HIGH);    // posar a 5V el pin 8
-  digitalWrite(segE, HIGH);    // posar a 5V el pin 9
-  digitalWrite(segF, HIGH);    // posar a 5V el pin 10
-  digitalWrite(segG, HIGH);    // posar a 5V el pin 11
+   delay(t);                  // es queden leds tms encesos
+ 
   
-  delay(500);                  // es queden leds 500ms encesos
-
 }
-
+  
 //********** Funcions *************************************************************
