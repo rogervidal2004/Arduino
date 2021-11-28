@@ -83,5 +83,15 @@ void loop()
   digitalWrite(segG, HIGH);    // posar a 5V el pin 11
   
   delay(t);                  // es queden leds tms encesos
+
+    digitalWrite(segA, LOW);    // posar a 5V el pin 5
+  digitalWrite(segB, LOW);    // posar a 5V el pin 6
+  digitalWrite(segC, LOW);    // posar a 5V el pin 7
+  digitalWrite(segD, LOW);    // posar a 5V el pin 8
+  digitalWrite(segE, LOW);    // posar a 5V el pin 9
+  digitalWrite(segF, LOW);    // posar a 5V el pin 10
+  digitalWrite(segG, LOW);    // posar a 5V el pin 11
+  
+  delay(t);                  // es queden leds tms encesos
   }
   
