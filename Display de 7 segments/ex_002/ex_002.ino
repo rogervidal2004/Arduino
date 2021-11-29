@@ -16,7 +16,7 @@ const byte segD = 8;
 const byte segE = 9;          
 const byte segF = 10;         
 const byte segG = 11; 
-long int t = 500;
+long int t = 1000;
 
 //********** Setup ****************************************************************
 void setup()
